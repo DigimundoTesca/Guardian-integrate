@@ -48,6 +48,7 @@ try:
                     print(value)
 ##                    ser.write(ticket)
                     DOC.write(ticket)
+                    DOC.close()
                     ticket = ""
                     trigger = False
                     value = value + c
